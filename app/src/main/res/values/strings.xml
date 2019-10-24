@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Factura_System</string>
+    <string name="lb1">Sistema de Facturacion: </string>
+    <string name="lb2">NIT: </string>
+    <string name="lb3">Factura Nro.: </string>
+    <string name="lb4">Nombre del Estudiante: </string>
+    <string name="lb5">Nombre del Cliente: </string>
+    <string name="lb6">Fecha: Yacuiba, </string>
+    <string name="lb7">Detalle de Productos</string>
+    <string name="lb8">Descripcion: </string>
+    <string name="lb9">Cantidad: </string>
+    <string name="lb10">Precio Unitario: </string>
+
+    <string name="et_nit">Ingrese el NIT</string>
+    <string name="et_factura">Ingrese el numero de factura</string>
+    <string name="et_estudiante">Ingrese el nombre del Estudiante</string>
+    <string name="et_cliente">Ingrese el nombre del Cliente</string>
+    <string name="et_fecha">Ingrese la fecha</string>
+    <string name="et_prod_descripcion">Ingrese una descripcion</string>
+    <string name="et_prod_cantidad">Ingrese la cantidad</string>
+    <string name="et_prod_precio">Ingrese el precio</string>
+
+    <string name="btn_calcular">Calcular</string>
+</resources>

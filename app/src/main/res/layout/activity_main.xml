@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lb1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/lb2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb1" />
+
+    <TextView
+        android:id="@+id/lb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/lb3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb2" />
+
+    <TextView
+        android:id="@+id/lb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/lb4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb3" />
+
+    <TextView
+        android:id="@+id/lb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/lb5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb4" />
+
+    <TextView
+        android:id="@+id/lb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/lb6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb5" />
+
+    <EditText
+        android:id="@+id/et_nit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/et_nit"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/lb2"
+        app:layout_constraintTop_toBottomOf="@+id/lb1" />
+
+    <EditText
+        android:id="@+id/et_factura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/et_factura"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/lb3"
+        app:layout_constraintTop_toBottomOf="@+id/et_nit" />
+
+    <EditText
+        android:id="@+id/et_cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/et_cliente"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/lb5"
+        app:layout_constraintTop_toBottomOf="@+id/et_estudiante" />
+
+    <EditText
+        android:id="@+id/et_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/et_fecha"
+        android:inputType="date"
+        app:layout_constraintStart_toEndOf="@+id/lb6"
+        app:layout_constraintTop_toBottomOf="@+id/et_cliente" />
+
+    <EditText
+        android:id="@+id/et_estudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/et_estudiante"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/lb4"
+        app:layout_constraintTop_toBottomOf="@+id/et_factura" />
+
+    <TextView
+        android:id="@+id/lb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/lb7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_fecha" />
+
+    <TextView
+        android:id="@+id/lb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/lb8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb7" />
+
+    <TextView
+        android:id="@+id/lb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/lb9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb8" />
+
+    <TextView
+        android:id="@+id/lb10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/lb10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb9" />
+
+    <EditText
+        android:id="@+id/et_prod_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/et_prod_descripcion"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/lb8"
+        app:layout_constraintTop_toBottomOf="@+id/lb7" />
+
+    <EditText
+        android:id="@+id/et_prod_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/et_prod_cantidad"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/lb9"
+        app:layout_constraintTop_toBottomOf="@+id/et_prod_descripcion" />
+
+    <EditText
+        android:id="@+id/et_prod_precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/et_prod_precio"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/lb10"
+        app:layout_constraintTop_toBottomOf="@+id/et_prod_cantidad" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/btn_calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_prod_precio" />
+</androidx.constraintlayout.widget.ConstraintLayout>
